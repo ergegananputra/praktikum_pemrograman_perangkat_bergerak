@@ -70,16 +70,19 @@ class ActivityRegister : AppCompatActivity() {
     fun login() {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://youtu.be/dQw4w9WgXcQ?feature=shared")
+        startActivity(intent)
         Log.d("Login", "Login button clicked")
     }
     fun condition() {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://youtu.be/dQw4w9WgXcQ?feature=shared")
+        startActivity(intent)
         Log.d("Login", "Condition button clicked")
     }
     fun terms() {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://youtu.be/dQw4w9WgXcQ?feature=shared")
+        startActivity(intent)
         Log.d("Login", "Terms button clicked")
     }
 }
